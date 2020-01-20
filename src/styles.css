@@ -1,0 +1,48 @@
+body {
+  background-color: skyblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#col1 {
+  float: left;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid yellow;
+  position:relative;
+}
+
+#col2 {
+  float: right;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid yellow;
+}
+
+.new-entry{
+align:
+   padding:3px;
+  border: 2px solid yellow;
+   width: 200px;
+  height: 12px;
+}
+
+#cart-item-name{
+  float:left;
+text-align:left;
+}
+
+#cart-item-value{
+float:right;
+text-align:right;
+}
+
+#cart-val{
+  position:absolute;
+  bottom:0;
+  left:25px;
+}
+.prodlist{
+  cursor:pointer;
+}
